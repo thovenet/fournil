@@ -1,10 +1,10 @@
-# fournil
+# Fournil
 
 https://thoven.shinyapps.io/PRATIQUE3/
 
 Fournil, c'est pratique : à partir d'une commande (une quantité de pain à fabriquer), l'outil aide à composer des fournées cohérentes, à calibrer les recettes et à planifier la journée de boulot.
 
-1 - Saisie de la commande
+## 1 - Saisie de la commande
 
 C’est la base de tout : renseigner la commande permettra de calibrer les recettes et le nombre de fours nécessaires. Pour l’instant, les commandes peuvent se composer de 9 catégories de pains (ces catégories peuvent évoluer si besoin, en revenant au code de l’appli) :
 
@@ -17,7 +17,7 @@ C’est la base de tout : renseigner la commande permettra de calibrer les recet
 L’onglet « commande » regroupe les champs permettant de saisir le nombre de pains voulu pour chaque type.
 
 
-2 - Calcul de la quantité de pâte pour les différents types de pains
+## 2 - Calcul de la quantité de pâte pour les différents types de pains
 
 Une fois la commande renseignée, on peut la convertir en quantité de pâte à produire, en distinguant les types de pains voulus. Le calcul de la quantité de pâte à produire s'effectue en tenant compte du « coefficient de marge de manœuvre » (estimant l’évaporation, et permettant de « grossir » légèrement la commande) qui peut être ajusté dans l’onglet « Paramètres » .
 
@@ -30,7 +30,7 @@ Par exemple, la quantité de pâte nécessaire pour réaliser la commande de pai
 La quantité de pâte à produire pour chaque type de pain s’affiche dans l’encadré « Résumé de la commande » de l’onglet « commande » .
 
 
-3 - Paramétrage des recettes
+## 3 - Paramétrage des recettes
 
 Toujours dans l’onglet « commande » , une série de curseurs permet d’ajuster les critères de construction des recettes. Pour les pains semi-complets, complets et de petit-épeautre , il est possible d’ajuster :
 
@@ -45,7 +45,7 @@ De base, ces paramètres sont calés sur des valeurs par défaut qui peuvent êt
 Il est possible d’ exporter au format Excel les paramètres de construction des recettes en utilisant le bouton « Sauvegarde des proportions » de l’onglet « commande ».
 
 
-4 - Répartition de la commande en fournées cohérentes
+## 4 - Répartition de la commande en fournées cohérentes
 
 La commande peut ensuite être répartie en fournées cohérentes. L’onglet « Pratique 2 » affiche la distribution des pains commandés en fournées de manière à maximiser le remplissage du four et à minimiser les types de recettes pour chaque fournée : on cherche à remplir les fours avec des pains qui se ressemblent le plus possible en termes de recette.
 
@@ -58,7 +58,7 @@ On attribue à chaque pain commandé son pourcentage d’occupation de four et o
 Le curseur « Ajustement de la cohérence des fours » sous le tableau permet d’ajuster la marge, et donc de remplir plus ou moins les fours de manière à trouver la meilleure cohérence possible entre les fours.
 
 
-5 - Calcul des recettes pour chaque fournée
+## 5 - Calcul des recettes pour chaque fournée
 
 Lorsque les fournées cohérentes sont calibrées, le bouton « Calculer les recettes de la (des) fournée(s) » permet de générer les recettes nécessaires à la réalisation des pains contenus dans chacun des fours.
 
@@ -83,7 +83,7 @@ La quantité de pâte est donc fonction de la quantité de farine et, à l’inv
 Une fois les recettes éditées, elles peuvent être sauvegardées et exportées au format Excel grâce au bouton « Exporter les recettes par fournées ».
 
 
-6 - Alternative : retour sous PRATIQUE 1
+## 6 - Alternative : retour sous PRATIQUE 1
 
 Imaginons un cas extrême dans lequel Pratique 2 ne fonctionne pas. Il y aurait une commande bizarre pour laquelle il n’est pas possible de trouver une configuration valable en termes de cohérence des fours.
 

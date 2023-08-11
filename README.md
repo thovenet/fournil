@@ -1,4 +1,4 @@
-# Fournil - Un outil pratique pour la boulangerie compliquée (au levain et au feu de bois)
+# Fournil - Un outil pratique pour de la boulangerie compliquée (au levain et au feu de bois)
 
 https://thoven.shinyapps.io/PRATIQUE3/
 

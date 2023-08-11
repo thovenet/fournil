@@ -29,7 +29,7 @@ ui <- fluidPage(theme = shinytheme("cosmo"),
                   css = ""),
                 
    ## TITRE GENERAL ----
-  titlePanel(title = "PRATIQUE³"),
+  titlePanel(title = "Fournil (=PRATIQUE³)"),
   h6(sample(c("“Que préfères-tu, celui qui veut te priver de pain au nom de la liberté ou celui qui veut t’enlever ta liberté pour assurer ton pain ?” - A. Camus",
               "“J’apprécie plus le pain, le pâté, le saucisson que les limitations de vitesse.” - J. Chirac", 
               "“Une idée c'est comme un pain au chocolat. Il faut la laisser refroidir pour voir si elle est vraiment bonne.” - S. Uzzan", 
@@ -44,6 +44,9 @@ ui <- fluidPage(theme = shinytheme("cosmo"),
               "“Le croustillant et le moelleux sont les deux caractéristiques les plus recherchées. Le croustillant étant recherché par les + de 35 ans, sans enfant et fréquentant les boulangeries artisanales, le moelleux par les familles.” - IFOP pour Banette",
               "“Ce pain-là, il est cuit trop vite dans un four trop chaud ; la montée n'a pas le temps de se faire et il y a trop d'air dans la mie. Donc c'est de la merde.” - Karadoc"),
             1)),
+  
+  a(href = "https://github.com/thovenet/fournil.git", "thovenet/fournil.git"),
+  img(src="repo1.png"),
     
   navbarPage(icon(sample(c("jar-wheat", "money-bill-trend-up", "money-bill-wheat", "people-group", "person-digging", "person-harassing", 
                            "microscope", "magnifying-glass-chart", "money-bill-1-wave", "sack-dollar", "plate-wheat", "bomb", "poo", "hippo", "pen", 
@@ -259,11 +262,9 @@ ui <- fluidPage(theme = shinytheme("cosmo"),
           br(),
             h1("6 - Alternative : retour sous PRATIQUE 1"),
             div(p("Imaginons un cas extrême dans lequel Pratique 2 ne fonctionne pas. Il y aurait une commande bizarre pour laquelle il n’est pas possible de trouver une configuration valable en termes de cohérence des fours."), 
-                p("Dans un tel cas de figure, il peut être valable de revenir à ", strong("Pratique 1"),", dans lequel chaque recette est séparée dans des fours distincts dont on connaît le taux de remplissage. On peut ainsi cumuler des fours de manière à composer soi-même des fournées plus propres que celles proposées par Pratique 2. C’est une sorte de Joker.",icon("toilet"))),
+                p("Dans un tel cas de figure, il peut être valable de revenir à ", strong("Pratique 1"),", dans lequel chaque recette est séparée dans des fours distincts dont on connaît le taux de remplissage. On peut ainsi cumuler des fours de manière à composer soi-même des fournées plus propres que celles proposées par Pratique 2. C’est une sorte de Joker.")),
 #          br(),
 #            h1("7 - Expérimentation : planification de la panification"),
-          br(), br(), br(),
-          img(src="images.jpg", align = "right"  , width = "35%"),
           br(), br(), br()),
 
    ## EMPLOI DU TEMPS ----

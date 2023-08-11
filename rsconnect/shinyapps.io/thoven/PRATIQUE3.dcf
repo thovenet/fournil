@@ -1,0 +1,14 @@
+name: PRATIQUE3
+title: PRATIQUE3
+username:
+account: thoven
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9273383
+bundleId: 7406982
+url: https://thoven.shinyapps.io/PRATIQUE3/
+when: 1688142647.86213
+lastSyncTime: 1688142647.86213
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/index.jpg|www/wip.png

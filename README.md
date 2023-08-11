@@ -23,11 +23,9 @@ Une fois la commande renseignée, on peut la convertir en quantité de pâte à 
 
 Par exemple, la quantité de pâte nécessaire pour réaliser la commande de pain complet est calculée de la manière suivante :
 
-Quantité brute = [Nb de pains de 500g commandés * 500] + [Nb de pains de 750g commandés * 750]
-
-Marge à ajouter = Quantité brute * Coef de marge
-
-Quatité finale = Quantité brute + Marge à ajouter
+    Quantité brute = [Nb de pains de 500g commandés * 500] + [Nb de pains de 750g commandés * 750]
+    Marge à ajouter = Quantité brute * Coef de marge
+    Quatité finale = Quantité brute + Marge à ajouter
 
 La quantité de pâte à produire pour chaque type de pain s’affiche dans l’encadré « Résumé de la commande » de l’onglet « commande » .
 
@@ -68,23 +66,19 @@ Le calcul des recettes s'effectue en convertissant les quantités de pains de la
 
 Pour calculer les quantités de chaque ingrédient, on part de la formule :
 
-Pâte (Q_p) = Farine (Q_f) + eau (Q_e) + levain (Q_l) + sel (Q_s) + potentiel ingrédient spécial (Q_sp)
+    Pâte (Q_p) = Farine (Q_f) + eau (Q_e) + levain (Q_l) + sel (Q_s) + potentiel ingrédient spécial (Q_sp)
 
 Les quantités d’eau, de levain et de sel s’expriment toutes en fonction de la quantité de farine (cf. partie sur le paramètrage des recettes) :
 
-Q_e = Taux d’hydratation * Q_f
-
-Q_l = Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]
-
-Q_s = Taux de sel * Q_f
-
-Q_g = Taux de graine * [Q_f + (Taux d’hydratation * Q_f) + (Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]) + (Taux de sel * [Q_f + (Taux d’hydratation * Q_f)])]
-
-Q_sp = Taux d’ing spé * [Q_f + (Taux d’hydratation * Q_f) + (Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]) + (Taux de sel * [Q_f + (Taux d’hydratation * Q_f)])]
+    Q_e = Taux d’hydratation * Q_f
+    Q_l = Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]
+    Q_s = Taux de sel * Q_f
+    Q_g = Taux de graine * [Q_f + (Taux d’hydratation * Q_f) + (Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]) + (Taux de sel * [Q_f + (Taux d’hydratation * Q_f)])]
+    Q_sp = Taux d’ing spé * [Q_f + (Taux d’hydratation * Q_f) + (Taux de levain * [Q_f + (Taux d’hydratation * Q_f)]) + (Taux de sel * [Q_f + (Taux d’hydratation * Q_f)])]
 
 La quantité de pâte est donc fonction de la quantité de farine et, à l’inverse, on peut exprimer la quantité de farine en fonction de la quantité de pâte :
 
-Q_f = Q_p / [ (1 + tx_sp) * ( 1 + tx_hyd + (1 + tx_hyd) * tx_lev + tx_sel ) ]
+    Q_f = Q_p / [ (1 + tx_sp) * ( 1 + tx_hyd + (1 + tx_hyd) * tx_lev + tx_sel ) ]
 
 Une fois les recettes éditées, elles peuvent être sauvegardées et exportées au format Excel grâce au bouton « Exporter les recettes par fournées ».
 

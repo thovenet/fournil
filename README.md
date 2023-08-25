@@ -1,6 +1,6 @@
 # Fournil - Un outil pratique pour de la boulangerie compliquée (au levain et au feu de bois)
 
-![](www/HEX.PNG){width="260"}
+![](www/HEX.PNG)
 
 <https://thoven.shinyapps.io/PRATIQUE3/>
 
@@ -52,7 +52,7 @@ Il est possible d' exporter au format Excel les paramètres de construction des 
 
 ## 4 - Répartition de la commande en fournées cohérentes
 
-La commande peut ensuite être répartie en fournées cohérentes. L'onglet « Pratique 2 » affiche la distribution des pains commandés en fournées de manière à maximiser le remplissage du four et à minimiser les types de recettes pour chaque fournée : on cherche à remplir les fours avec des pains qui se ressemblent le plus possible en termes de recette.
+La commande peut ensuite être répartie en fournées cohérentes. L'onglet « Fours et Recettes » affiche la distribution des pains commandés en fournées de manière à maximiser le remplissage du four et à minimiser les types de recettes pour chaque fournée : on cherche à remplir les fours avec des pains qui se ressemblent le plus possible en termes de recette.
 
 Pour cela, on estime l'occupation du four pour chaque pain qui compose la fournée.
 
@@ -92,8 +92,8 @@ Q_f = Q_p / [ (1 + tx_sp) * ( 1 + tx_hyd + (1 + tx_hyd) * tx_lev + tx_sel ) ]
 
 Une fois les recettes éditées, elles peuvent être sauvegardées et exportées au format Excel grâce au bouton « Exporter les recettes par fournées ».
 
-## 6 - Alternative : retour sous PRATIQUE 1
+## 6 - Alternative
 
-Imaginons un cas extrême dans lequel Pratique 2 ne fonctionne pas. Il y aurait une commande bizarre pour laquelle il n'est pas possible de trouver une configuration valable en termes de cohérence des fours.
+Imaginons un cas extrême dans lequel il y aurait une commande bizarre pour laquelle il n'est pas possible de trouver une configuration valable en termes de cohérence des fours.
 
-Dans un tel cas de figure, il peut être valable de revenir à Pratique 1 , dans lequel chaque recette est séparée dans des fours distincts dont on connaît le taux de remplissage. On peut ainsi cumuler des fours de manière à composer soi-même des fournées plus propres que celles proposées par Pratique 2. C'est une sorte de Joker.
+Dans un tel cas de figure, il peut être valable de décomposer différemment la commande. C'est ce que propose l'onglet **Joker**, dans lequel chaque recette est séparée dans des fours distincts dont on connaît le taux de remplissage. On peut ainsi cumuler des fours de manière à composer soi-même des fournées plus propres que celles proposées par l'onglet **Fours & Recettes**. C'est une sorte de Joker.

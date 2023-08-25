@@ -21,8 +21,9 @@ ui <- fluidPage(theme = shinytheme("cosmo"),
                   top = "center", size = 22, css = ""),
                 
    ## TITRE GENERAL ----
-  titlePanel(title = div("FOURNIL (=PRATIQUE³)",
-                         img(src="HEX-logo.png", align = "right"))),
+   img(src="HEX-logo.png", align = "right"),
+   titlePanel(title = "FOURNIL (=PRATIQUE³)"),
+
   
   div(img(src="repo1.png"),
       a(href = "https://github.com/thovenet/fournil.git", "thovenet/fournil.git", style = "color:grey")),

@@ -5,10 +5,10 @@ account: thoven
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9273383
-bundleId: 7406982
+bundleId: 7608652
 url: https://thoven.shinyapps.io/PRATIQUE3/
-when: 1688142647.86213
-lastSyncTime: 1688142647.86213
+when: 1692959373.37765
+lastSyncTime: 1692959373.37765
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: www/index.jpg|www/wip.png
+ignoredFiles: README.html|README.md|www/Composition1.pub|www/HEX.PNG

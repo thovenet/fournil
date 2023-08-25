@@ -1,6 +1,6 @@
 # Fournil - Un outil pratique pour de la boulangerie compliquée (au levain et au feu de bois)
 
-![](www/HEX.PNG)
+![](www/HEX-removebg-preview.png)
 
 <https://thoven.shinyapps.io/PRATIQUE3/>
 

@@ -18,7 +18,7 @@ Pains complets de 500 et 750 g ;
 Pain de petit-épeautre de 500 g .
 ```
 
-L'onglet « commande » regroupe les champs permettant de saisir le nombre de pains voulu pour chaque type.
+L'onglet « Commande » regroupe les champs permettant de saisir le nombre de pains voulu pour chaque type.
 
 ## 2 - Calcul de la quantité de pâte pour les différents types de pains
 
@@ -27,16 +27,16 @@ Une fois la commande renseignée, on peut la convertir en quantité de pâte à 
 Par exemple, la quantité de pâte nécessaire pour réaliser la commande de pain complet est calculée de la manière suivante :
 
 ```         
-Quantité brute = [Nb de pains de 500g commandés * 500] + [Nb de pains de 750g commandés * 750]
+Quantité brute (en g) = [Nb de pains de 500g commandés * 500] + [Nb de pains de 750g commandés * 750]
 Marge à ajouter = Quantité brute * Coef de marge
-Quatité finale = Quantité brute + Marge à ajouter
+Quatité finale (en g) = Quantité brute + Marge à ajouter
 ```
 
-La quantité de pâte à produire pour chaque type de pain s'affiche dans l'encadré « Résumé de la commande » de l'onglet « commande » .
+La quantité de pâte à produire pour chaque type de pain s'affiche dans l'encadré « Résumé de la commande » de l'onglet « Commande » .
 
 ## 3 - Paramétrage des recettes
 
-Toujours dans l'onglet « commande » , une série de curseurs permet d'ajuster les critères de construction des recettes. Pour les pains semi-complets, complets et de petit-épeautre , il est possible d'ajuster :
+Toujours dans l'onglet « Commande » , une série de curseurs permet d'ajuster les critères de construction des recettes. Pour les pains semi-complets, complets et de petit-épeautre , il est possible d'ajuster :
 
 ```         
 Le taux d’hydratation (exprimé en gramme d’eau à ajouter pour chaque gramme de farine dans la pâte)
@@ -48,7 +48,7 @@ Les recettes des pains spéciaux et des pains aux graines reprennent les mêmes 
 
 De base, ces paramètres sont calés sur des valeurs par défaut qui peuvent être modifiées en revenant au code de l'appli.
 
-Il est possible d' exporter au format Excel les paramètres de construction des recettes en utilisant le bouton « Sauvegarde des proportions » de l'onglet « commande ».
+Il est possible d' exporter au format Excel les paramètres de construction des recettes en utilisant le bouton « Sauvegarde des proportions » de l'onglet « Commande ».
 
 ## 4 - Répartition de la commande en fournées cohérentes
 
